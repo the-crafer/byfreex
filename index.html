@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crafer Tattoo Machine</title>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <!-- COUSTOM JS -->
+    <script src="./js/index.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <nav class="nav-menu">
+                <p>HIGH-END BRAND that makes tattoo Equipment</p>
+                <img src="./images/freex_logo_bk.png" alt="freex_logo" class="freexlogo">
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="intro">
+            <div class="intro-overlay"></div>
+            <!-- <div class="social-icons">
+                <a href="https://www.instagram.com/your_account" target="_blank">
+                    <img src="./images/instagram_bk.png" alt="Instagram" class="social-icon">
+                </a>
+                <a target="_blank">
+                    <img src="./images/facebook_bk.png" alt="Facebook" class="social-icon">
+                </a>
+                <a target="_blank">
+                    <img src="./images/twitter_x_bk.png" alt="Facebook" class="social-icon">
+                </a>
+            </div> -->
+            </div>
+            <div class="vertical-keywords">
+                    <span>EXCLUSIVITY</span>
+                    <span>INNOVATION</span>
+                    <span>PRECISION</span>
+                </div>
+            <div class="intro-video">
+                <div class="video-overlay"></div>
+                <video id="resize-1" autoplay loop muted src="./video/intro_video.mp4"></video>
+            </div>
+            <div class="top-title">
+                <div class="title-left">
+                    <img src="./images/octagon.png" alt="octagon_icon" class="octagon">
+                    <p>Crafer<br>Tattoo Machine BRAND</p>
+                </div>
+            </div>
+            <div class="typing-section">
+                <p id="typing-en">
+                    <span id="typing-en-text"></span><span id="cursor-en" class="typing-cursor">|</span>
+                </p>
+                <p id="typing-ko">
+                    <span id="typing-ko-text"></span><span id="cursor-ko" class="typing-cursor">|</span>
+                </p>
+            </div>
+            <div class="end-text">
+                <p>완성된 팔각의 균형, 디자인은 기능 위에 감각을 녹여내고, 그 감각위에 철학을 담아냅니다. 그리고 이 형상은 Freex가 세상을 이해하고 해석하는 방식입니다.</p>
+                <p>이제! Freex의 Brand 디자인이 시작됩니다.</p>
+            </div>
+        </section>
+        <section class="craferIs">
+            <div class="crafer-wrapper">
+                <p class="title-text">"Craft"와 "Grapher"의 만남, 크레퍼(Crafer)</p>
+                <img src="./images/crafer_since.png" alt="crafer Small" class="crafer-img-small">
+                <p>타투 아티스트는 손으로 예술을 새기고, 시각으로 이야기를 만듭니다. Crafer는 바로 그 예술가들을 위한 이름입니다.<br><br>
+                            "Craft" — 손끝의 정교함과 장인정신.  /  "Grapher" — 시각을 창조하는 사람.<br><br>
+                    이 두 단어가 만나 탄생한 Crafer는, 디지털과 아날로그를 넘나드는 현대 타투이스트의 작업을 위해 태어났습니다.<br>
+                    Crafer는 도구가 아니라, 피부 위에 예술을 구현하는 창작자의 영감과 기술을 연결하는 파트너입니다.
+                </p>
+                <video class="crafer-video-large" autoplay loop muted playsinline>
+                    <source src="../video/Crafer_is.mp4" type="video/mp4">
+                    브라우저가 비디오를 지원하지 않습니다.
+                </video>
+            </div>
+        </section>
+        <section class="brandCopy">
+            <div class="copy-text">
+                <p>"When Form Becomes Essence"<br>
+                <p>[형대가 본질이 될 때]</p>
+                <p>"Crafer encapsulates philosophy and identity within a simple form. <br>
+                    The form becomes the essence, and that essence embodies the values <br>
+                    Crafer strives for."</p>
+                <p>"Crafer는 단순한 형태 안에 철학과 아이덴티티를 담아내고, 형태는 <br>
+                    곧 본질이 되며, 그 본질은 Crafer가 지향하는 가치가 됩니다."
+                </p>
+                <img src="./images/crafer_since_wh.png" alt="">
+            </div>
+            <div class="copy-video">
+                <div class="copy-overlay"></div>
+                <video id="resize-2" autoplay loop muted src="./video/Coppy_video.mp4"></video>
+            </div>
+        </section>
+        <section class="craferPrd">
+            <h2 class="prd-title" >About the product</h2>
+            <p class="prd-desc" >디자인에서 실체로! 정밀함 속에 깃든 예술, 그리고 움직임의 탄생! 모든 걸작은 하나의 비전에서 시작됩니다. <br>
+                정밀한 설계를 넘어, 기계속에 예술적 감성을 담아냅니다.
+            </p>
+            <div class="product-wrap">
+                <div id="machine" class="sub-wrap">
+                    <div id="machine-img" class="img-box">
+                        <div class="img-slider machine-slider">
+                            <div class="slides">
+                                <img src="./product_image/01_Crafer_Machine_01.jpg" alt="machine_image01" draggable="false">
+                                <img src="./product_image/01_Crafer_Machine_02.jpg" alt="machine_image02" draggable="false">
+                                <img src="./product_image/01_Crafer_Machine_03.jpg" alt="machine_image03" draggable="false">
+                                <img src="./product_image/01_Crafer_Machine_04.jpg" alt="machine_image04" draggable="false">
+                            </div>
+                            <div class="pagination"></div>
+                            <div class="nav prev"></div>
+                            <div class="nav next"></div>
+                        </div>
+                    </div>
+                    <div id="machine-text" class="text-box">
+                        <div class="header-text">
+                            <p>[무선타투머신]</p>
+                            <h2>Wiress Machine</h3>
+                        </div>
+                        <h3>Function</h3>
+                        <ul>
+                            <li>Save up to 5 Preset</li>
+                            <li>2000mAh Li-ion Battery</li>
+                            <li>3-Level Torque Control</li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="cradle" class="sub-wrap">
+                    <div id="cradle-text" class="text-box">
+                        <div class="header-text">
+                            <p>[충전크레들]</p>
+                            <h3>Charging Cradle</h3>
+                        </div>
+                        <h3>Function</h3>
+                        <ul>
+                            <li>Save up to 5 Preset</li>
+                            <li>2000mAh Li-ion Battery</li>
+                            <li>3-Level Torque Control</li>
+                        </ul>
+                    </div>
+                    <div id="cradle-img" class="img-box">
+                        <div class="img-slider cradle-slider">
+                            <div class="slides">
+                                <img src="./product_image/02_Crafer_cradle_01.jpg" alt="cradle_image01" draggable="false">
+                                <img src="./product_image/02_Crafer_cradle_02.jpg" alt="cradle_image02" draggable="false">
+                                <img src="./product_image/02_Crafer_cradle_03.jpg" alt="cradle_image03" draggable="false">
+                                <img src="./product_image/02_Crafer_cradle_04.jpg" alt="cradle_image04" draggable="false">
+                                <img src="./product_image/02_Crafer_cradle_05.jpg" alt="cradle_image05" draggable="false">
+                            </div>
+                            <div class="pagination"></div>
+                            <div class="nav prev"></div>
+                            <div class="nav next"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="case" class="sub-wrap">
+                    <div id="case-img" class="img-box">
+                        <div class="img-slider case-slider">
+                            <div class="slides">
+                                <img src="./product_image/03_Crafer_Charging_Case_01.jpg" alt="case_image01" draggable="false">
+                                <img src="./product_image/03_Crafer_Charging_Case_02.jpg" alt="case_image02" draggable="false">
+                                <img src="./product_image/03_Crafer_Charging_Case_03.jpg" alt="case_image03" draggable="false">
+                                <img src="./product_image/03_Crafer_Charging_Case_04.jpg" alt="case_image04" draggable="false">
+                            </div>
+                            <div class="pagination"></div>
+                            <div class="nav prev"></div>
+                            <div class="nav next"></div>
+                        </div>
+                    </div>
+                    <div id="case-text" class="text-box">
+                        <div class="header-text">
+                            <p>[휴대용 충전케이스]</p>
+                            <h3>Portable Carging CASE</h3>
+                        </div>
+                        <h3>Function</h3>
+                        <ul>
+                            <li>Save up to 5 Preset</li>
+                            <li>2000mAh Li-ion Battery</li>
+                            <li>3-Level Torque Control</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+                <div id="grip" class="sub-wrap">
+                    <div id="grip-text" class="text-box">
+                        <div class="header-text">
+                            <p>[무선타투머신]</p>
+                            <h3>Wiress Machine</h3>
+                        </div>
+                        <h3>Function</h3>
+                        <ul>
+                            <li>Save up to 5 Preset</li>
+                            <li>2000mAh Li-ion Battery</li>
+                            <li>3-Level Torque Control</li>
+                        </ul>
+                    </div>
+                    <div id="grip-img" class="img-box"></div>
+                </div>
+            </div>
+        </section>
+        <div id="menu-toggle" class="menu-icon">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <div id="modal-overlay"></div>
+        <div id="modal-menu" class="modal-menu">
+            <div class="modal-menu-content">
+                <div class="text-slide">
+                    <p>안녕하세요! 해당 창은 컴플렉스를 구매한 고객님들께 발송된 링크로만 Open되는 비공개 안내입니다.</p>
+                </div>
+                <div class="order-text">
+                    <h2>크레퍼(Crafer)를 가장 먼저 만나보실 특별한 분들께...</h2>
+                    <p>"For the first to experience Crafer..."</p>
+                    <p>컴플렉스를 선택해주신 여러분께 감사의 마음을 담아, <span>크레퍼 풀패키지 <br>
+                        (무선타투머신, 충전크레들, 휴대용 충전케이스, 소프트그립)</span>를 특별 할인가로 제공합니다.
+                    </p>
+                    <p>기존 고객님들을 위한 한정혜택, <span>지금 바로 만나보시기 바랍니다.</span></p>
+                    <div class="order-buttons">
+                        <button class="book-btn">예약 구매하기</button>
+                        <button class="contact-btn">문의하기</button>
+                    </div>
+                    <p>행사진행가격(타투머신 + 충전크레들 + 포터블 충전케이스 + 소프트그립) : 1,100,000원</p>
+                </div>
+                <div class="bottom-text">
+                    <img src="./images/crafer_logo_silver.png" alt="">
+                    <p>Crafer는 컴플렉스를 잇는 새로운 타투머신 브랜드입니다.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-left">
+            <h1 class="footer-logo">CRAFER</h1>
+            <p class="footer-copy">© 2025 Crafer. All rights reserved.</p>
+            </div>
+            <div class="footer-center">
+            <ul class="footer-nav">
+                <li><a href="#about">About</a></li>
+                <li><a href="#product">Product</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            </div>
+            <div class="footer-right">
+            <ul class="social-icons">
+                <li><a href="#"><img src="./images/icon_insta.svg" alt="Instagram"></a></li>
+                <li><a href="#"><img src="./images/icon_youtube.svg" alt="YouTube"></a></li>
+            </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- <footer>
+        <div class="footer-container">
+            <div class="footer-content">
+                
+                <div class="footer-section">
+                    <h3>회사 소개</h3>
+                    <p>저희 회사는 혁신적인 솔루션을 통해 고객의 성공을 돕는 것을 목표로 합니다. 전문적인 서비스와 최고의 품질을 제공합니다.</p>
+                    <div class="social-links">
+                        <a href="#" title="Facebook">F</a>
+                        <a href="#" title="Twitter">T</a>
+                        <a href="#" title="Instagram">I</a>
+                        <a href="#" title="LinkedIn">L</a>
+                        <a href="#" title="YouTube">Y</a>
+                    </div>
+                </div>
+
+            
+                <div class="footer-section">
+                    <h3>빠른 링크</h3>
+                    <ul>
+                        <li><a href="#">홈</a></li>
+                        <li><a href="#">서비스</a></li>
+                        <li><a href="#">포트폴리오</a></li>
+                        <li><a href="#">블로그</a></li>
+                        <li><a href="#">회사소개</a></li>
+                        <li><a href="#">채용정보</a></li>
+                    </ul>
+                </div>
+
+            
+                <div class="footer-section">
+                    <h3>서비스</h3>
+                    <ul>
+                        <li><a href="#">웹 디자인</a></li>
+                        <li><a href="#">웹 개발</a></li>
+                        <li><a href="#">모바일 앱</a></li>
+                        <li><a href="#">마케팅</a></li>
+                        <li><a href="#">SEO</a></li>
+                        <li><a href="#">컨설팅</a></li>
+                    </ul>
+                </div>
+
+            
+                <div class="footer-section">
+                    <h3>연락처</h3>
+                    <div class="contact-info">
+                        <span class="icon">📍</span>
+                        <span>서울시 강남구 테헤란로 123</span>
+                    </div>
+                    <div class="contact-info">
+                        <span class="icon">📞</span>
+                        <span>02-1234-5678</span>
+                    </div>
+                    <div class="contact-info">
+                        <span class="icon">✉</span>
+                        <span>info@company.com</span>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 FREEX. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">개인정보처리방침</a>
+                    <a href="#">이용약관</a>
+                    <a href="#">사이트맵</a>
+                    <a href="#">고객지원</a>
+                </div>
+            </div>
+        </div>
+    </footer> -->
+</body>
+</html>
